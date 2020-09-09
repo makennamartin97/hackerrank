@@ -3,7 +3,7 @@
 
 //aVeryBigSum has the following parameter(s):
 
-//int ar[n]: an array of integers .
+//int ar[n]: an array of integers.
 
 function aVeryBigSum(ar) {
     let sum = 0;
@@ -12,6 +12,4 @@ function aVeryBigSum(ar) {
         
     }
     return sum;
-
-
 }
