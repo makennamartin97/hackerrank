@@ -1,0 +1,13 @@
+HackerRank > SQL > basic select > weather observation station 3
+
+Query a list of CITY names from STATION for cities that have an 
+even ID number. Print the results in any order, but exclude duplicates
+from the answer.
+
+-DISTINCT avoids duplication
+-MOD stands for modules since we are diving the ID by 2
+
+SELECT DISTINCT CITY
+FROM STATION
+WHERE MOD(ID, 2) = 0;
+
